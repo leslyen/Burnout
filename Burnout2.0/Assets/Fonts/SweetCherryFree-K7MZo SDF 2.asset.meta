@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Burnout2.0/Assets/Fonts/SweetCherryFree-K7MZo SDF 2.asset.meta
 guid: 744fd559364462649a573cf36745aafa
 NativeFormatImporter:
+=======
+guid: 6d3987eaf53a47046a5ed17b764a0cfa
+folderAsset: yes
+DefaultImporter:
+>>>>>>> Stashed changes:Burnout2.0/Assets/Fonts 1.meta
   externalObjects: {}
   mainObjectFileID: 11400000
   userData: 
