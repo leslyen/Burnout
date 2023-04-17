@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a5630a852a5577a478637c562b221a29
+guid: 2408d166d06eae048887d3cf93f34787
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,7 +10,9 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - KBZipaDeeDooDah
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4691c183038e9374f80bc3867e2fc544, type: 3}
+  - {fileID: 12800000, guid: f12990e58e51eee468d4273606702124, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7a5ab69489830344c8bf1dc2d0d8567d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Sweet Cherry Free
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4a9094c32596bd941997ac9e125e4b1b, type: 3}
+  - {fileID: 12800000, guid: 9ce56da66de1cfc47b02b4af99a9e437, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

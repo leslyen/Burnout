@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9ce56da66de1cfc47b02b4af99a9e437
+guid: 575f17e844502864ba38ca61ddf91c0d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Sweet Cherry Free
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4a9094c32596bd941997ac9e125e4b1b, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
