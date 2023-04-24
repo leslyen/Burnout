@@ -5275,6 +5275,7 @@ MonoBehaviour:
   timeRemaining: 300
   timerIsRunning: 1
   timeText: {fileID: 472594465}
+  EndDetails: {fileID: 3136290396841565865, guid: 9ac227e08ed24534d82ab0e77b7c1a18, type: 3}
 --- !u!1001 &475749637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21301,6 +21302,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1228903483091361987}
     - target: {fileID: 6310709747887552923, guid: bdf70ce866b24b94abbf3c881b17af30, type: 3}
+      propertyPath: EndDetails
+      value: 
+      objectReference: {fileID: 3136290396841565865, guid: 9ac227e08ed24534d82ab0e77b7c1a18, type: 3}
+    - target: {fileID: 6310709747887552923, guid: bdf70ce866b24b94abbf3c881b17af30, type: 3}
       propertyPath: spawnPoint
       value: 
       objectReference: {fileID: 2073143196}
@@ -22655,6 +22660,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4998339441236886, guid: 7d65db92ee1ad5644a8177816885460b, type: 3}
   m_PrefabInstance: {fileID: 1881285225}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1884621326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1729782501303860, guid: 6d513e3e97508a3429bc5eac2b8b7145, type: 3}
+  m_PrefabInstance: {fileID: 389199981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1884621330
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884621326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4795221, y: 1.1916711, z: 0.9823735}
+  m_Center: {x: 0.011563897, y: 0.5590756, z: -0.08546752}
 --- !u!1001 &1892096096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24630,16 +24653,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2bd0d4cd7f3b214ab3ca40bc9c6a75f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  homework: {fileID: 981828611}
-  test: {fileID: 981828611}
-  lecture: {fileID: 981828611}
-  present: {fileID: 981828611}
-  advisor: {fileID: 981828611}
-  book: {fileID: 981828611}
-  lunch: {fileID: 981828611}
-  skip: {fileID: 981828611}
-  dream: {fileID: 981828611}
-  trip: {fileID: 981828611}
 --- !u!1001 &2073550309
 PrefabInstance:
   m_ObjectHideFlags: 0
