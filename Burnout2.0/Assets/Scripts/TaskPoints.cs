@@ -24,8 +24,8 @@ public class TaskPoints : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Task"))
         {
-            points = points - 20;
-            Debug.Log("LOst 20% of energy");
+            points = points - 25;
+            Debug.Log("LOst 25% of energy");
             Debug.Log(points);
         }
     }

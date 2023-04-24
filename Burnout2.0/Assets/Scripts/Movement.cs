@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class Movement : MonoBehaviour
 {
     private int points, done;
-    public Text TextBox;
+    public Text TextBox, EndDetails;
     private CharacterController controller;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
@@ -22,6 +22,7 @@ public class Movement : MonoBehaviour
     {
         controller = gameObject.AddComponent<CharacterController>();
         points = 100;
+        done = 0;
 
     }
     void Update()
@@ -67,9 +68,40 @@ public class Movement : MonoBehaviour
             Debug.Log(points);
             other.tag = "Done";
         }
-        if(points < 0)
+        if(done >= 5)
         {
-            SceneManager.LoadScene("end");
+            string currentSceneName = SceneManager.GetActiveScene().name;
+
+            switch(currentSceneName){
+                case "Home":
+                    SceneManager.LoadScene("School");
+                    break;
+                case "School":
+                    SceneManager.LoadScene("Office");
+                    break;
+                case "Office":
+                    SceneManager.LoadScene("end");
+                    break;
+            }
+        }
+        if(points < 0){
+
+            string currentSceneName = SceneManager.GetActiveScene().name;
+
+            switch(currentSceneName){
+                case "Home":
+                    EndDetails.text = "You crumbled under pressure, did not finish your tasks, and got so overwhelemed that you moved back with your parents.";
+                    SceneManager.LoadScene("end");
+                    break;
+                case "School":
+                    EndDetails.text = "It was all too much, you dropped out of school now you have a LOT more time with YOURSELF to think about what you will do with your life";
+                    SceneManager.LoadScene("end");
+                    break;
+                case "Office":
+                    EndDetails.text = "You were fired on the spot, no notice or warning, that bartending job is sounding pretty nice right now";
+                    SceneManager.LoadScene("end");
+                    break;
+            }
         }
 
     }

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 48f6a2af8c47a4dc7a7e582c3d00655c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - TaskLight: {fileID: 1389283812650261596, guid: 01d338526f5aaae489b783f174585d9a, type: 3}
+  - TaskSpot: {fileID: 5836774667593710551, guid: 011a00b9aa001b741ae25d4b293b31e6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
