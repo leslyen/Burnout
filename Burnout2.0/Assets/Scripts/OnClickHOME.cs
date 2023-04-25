@@ -51,7 +51,7 @@ public class OnClickHOME : MonoBehaviour
             case "rack (1)":
                 openpopup(fun4);
                 break;
-            case "chair1 (34)":
+            case "napPillow":
                 openpopup(fun5);
                 break;
         }
