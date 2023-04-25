@@ -620,7 +620,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193051679}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.2514452, y: 0.94772476, z: 3.4647634}
@@ -4105,6 +4105,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.701974, y: 0.8931724, z: 2.2747502}
   m_Center: {x: 0, y: 0.000000014901161, z: 0}
+--- !u!1 &1102431198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2888235927080234234, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+  m_PrefabInstance: {fileID: 1556232288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1102431199
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102431198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6, y: 0.7167333, z: 0.71728975}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1109396978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5934,6 +5952,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Task
       objectReference: {fileID: 0}
+    - target: {fileID: -2888235927080234234, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+      propertyPath: m_TagString
+      value: Fun
+      objectReference: {fileID: 0}
+    - target: {fileID: -2458545391892515365, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: -2068602812969086582, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.18
@@ -5957,6 +5983,10 @@ PrefabInstance:
     - target: {fileID: -2068602812969086582, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 100.276
+      objectReference: {fileID: 0}
+    - target: {fileID: -1603657988319369251, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+      propertyPath: m_TagString
+      value: Task
       objectReference: {fileID: 0}
     - target: {fileID: -1603336579925232902, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6068,7 +6098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7633078590617150719, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
       propertyPath: m_TagString
-      value: Fun
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8020492748817809799, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6097,6 +6127,10 @@ PrefabInstance:
     - target: {fileID: 8359792558410705253, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
       propertyPath: m_TagString
       value: Task
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415774618563420291, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+      propertyPath: m_TagString
+      value: Fun
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}

@@ -42,16 +42,16 @@ public class OnClickHOME : MonoBehaviour
             case "Armchair":
                 openpopup(fun1);
                 break;
-            case "table2 (4)":
+            case "Tv_unit":
                 openpopup(fun2);
                 break;
             case "wall4":
                 openpopup(fun3);
                 break;
-            case "drum1_kick":
+            case "Arcade":
                 openpopup(fun4);
                 break;
-            case "napPillow":
+            case "sofa2":
                 openpopup(fun5);
                 break;
         }

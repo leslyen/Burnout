@@ -19,7 +19,6 @@ public class FunDropdownHOME : MonoBehaviour
         Fun.Add("Watch TV");
         Fun.Add("Eat a snack");
         Fun.Add("Play video games");
-        Fun.Add("Play drums");
         Fun.Add("Take a nap");
 
 
