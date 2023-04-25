@@ -15,11 +15,11 @@ public class FunDropdownHOME : MonoBehaviour
 
 
         List<string> Fun = new List<string>();
-        Fun.Add("Watch TV");
         Fun.Add("Take a nap");
+        Fun.Add("Watch TV");
         Fun.Add("Eat a snack");
         Fun.Add("Play video games");
-        Fun.Add("Read a book");
+        Fun.Add("Play drums");
 
 
         foreach (var item in Fun)
@@ -40,28 +40,28 @@ public class FunDropdownHOME : MonoBehaviour
         switch (index)
         {
             case 0:
-                FunLight.transform. position = new Vector3(0f, 15f, -17f);
-                FunSpot.transform. position = new Vector3(0f, 1f, -17f);
+                FunLight.transform.position = new Vector3(-5.28f, 2.87f, 4.97f);
+                FunSpot.transform.position = new Vector3(7.44f, 2.95f, 17.31f);
                 break;
             case 1:
-                FunLight.transform. position = new Vector3(17f, 15f, -21f);
-                FunSpot.transform. position = new Vector3(17f, 1f, -21f);
+                FunLight.transform.position = new Vector3(3.85f, 2.4f, 6.29f);
+                FunSpot.transform.position = new Vector3(2.479f, 0.880f, 7.934f);
                 break;
             case 2:
-                FunLight.transform. position = new Vector3(8.5f, 15f, 6.5f);
-                FunSpot.transform. position = new Vector3(8.5f, 1f, 6.5f);
+                FunLight.transform. position = new Vector3(-3.56f, 2.4f, 6.1f);
+                FunSpot.transform. position = new Vector3(-3.62f, 0.350f, 5.99f);
                 break;
             case 3:
-                FunLight.transform. position = new Vector3(24f, 15f, -31f);
-                FunSpot.transform. position = new Vector3(24f, 1f, -31f);
+                FunLight.transform. position = new Vector3(-0.67f, 2.4f, -5.77f);
+                FunSpot.transform. position = new Vector3(-0.734f, 0.335f, 5.865f);
                 break;
             case 4:
-                FunLight.transform. position = new Vector3(3f, 15f, -5f);
-                FunSpot.transform. position = new Vector3(3f, 1f, -5f);
+                FunLight.transform. position = new Vector3(2.66f, 2.56f, -0.35f);
+                FunSpot.transform. position = new Vector3(2.32f, -0.401f, -1.11f);
                 break;
             default:
-                FunLight.transform. position = new Vector3(2f, 15f, 0f);
-                FunSpot.transform. position = new Vector3(2f, 1f, 0f);
+                FunLight.transform. position = new Vector3(16.62f, 2.95f, -3.53f);
+                FunSpot.transform. position = new Vector3(7.44f, 2.95f, 17.31f);
                 break;
         }
     }
