@@ -40,8 +40,8 @@ public class FunDropdownHOME : MonoBehaviour
         switch (index)
         {
             case 0:
-                FunLight.transform.position = new Vector3(7.44f, 2.95f, -3.53f);
-                FunSpot.transform.position = new Vector3(0.94f, 0.13f, 0.5f);
+                FunLight.transform.position = new Vector3(-5.28f, 2.87f, 4.97f);
+                FunSpot.transform.position = new Vector3(7.44f, 2.95f, 17.31f);
                 break;
             case 1:
                 FunLight.transform.position = new Vector3(3.85f, 2.4f, 6.29f);
@@ -60,8 +60,8 @@ public class FunDropdownHOME : MonoBehaviour
                 FunSpot.transform. position = new Vector3(2.32f, -0.401f, -1.11f);
                 break;
             default:
-                FunLight.transform. position = new Vector3(15f, 2.56f, -0.35f);
-                FunSpot.transform. position = new Vector3(15f, 2.56f, -0.35f);
+                FunLight.transform. position = new Vector3(16.62f, 2.95f, -3.53f);
+                FunSpot.transform. position = new Vector3(7.44f, 2.95f, 17.31f);
                 break;
         }
     }

@@ -4478,7 +4478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1389283812650261538, guid: 01d338526f5aaae489b783f174585d9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.06
+      value: -13.44
       objectReference: {fileID: 0}
     - target: {fileID: 1389283812650261538, guid: 01d338526f5aaae489b783f174585d9a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5042,6 +5042,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.11
       objectReference: {fileID: 0}
+    - target: {fileID: -671443047643505704, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+      propertyPath: m_TagString
+      value: Fun
+      objectReference: {fileID: 0}
     - target: {fileID: -521122626064382157, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
       propertyPath: m_TagString
       value: Task
@@ -5272,6 +5276,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1858436, y: 0.064503185, z: 0.20873249}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1559872312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -671443047643505704, guid: 02ad78cca7f19f843b49a2e580791919, type: 3}
+  m_PrefabInstance: {fileID: 1556232288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1559872313
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559872312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.46446112, y: 0.55069983, z: 0.46255118}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1573317104
 GameObject:
   m_ObjectHideFlags: 0
@@ -5441,7 +5463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8823878890104973786, guid: d40a783498e599940b615ecad35bb12a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.24
+      value: 16.62
       objectReference: {fileID: 0}
     - target: {fileID: 8823878890104973786, guid: d40a783498e599940b615ecad35bb12a, type: 3}
       propertyPath: m_LocalPosition.y
