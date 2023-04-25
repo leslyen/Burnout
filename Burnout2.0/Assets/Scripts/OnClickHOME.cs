@@ -27,19 +27,19 @@ public class OnClickHOME : MonoBehaviour
             case "cooker":
                 openpopup(task1);
                 break;
-            case "chair1 (18)":
+            case "door_003":
                 openpopup(task2);
                 break;
-            case "chair1 (40)":
+            case "duvet":
                 openpopup(task3);
                 break;
             case "Laptop":
                 openpopup(task4);
                 break;
-            case "bath":
+            case "Bath":
                 openpopup(task5);
                 break;
-            case "rack1 (4)":
+            case "Armchair":
                 openpopup(fun1);
                 break;
             case "table2 (4)":
@@ -48,7 +48,7 @@ public class OnClickHOME : MonoBehaviour
             case "wall4":
                 openpopup(fun3);
                 break;
-            case "rack (1)":
+            case "drum1_kick":
                 openpopup(fun4);
                 break;
             case "napPillow":

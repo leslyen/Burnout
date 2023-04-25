@@ -54,9 +54,9 @@ public class Movement : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Task"))
         {
-            points = points - 20;
+            points = points - 25;
             done = done + 1;
-            Debug.Log("Lost 20% of energy");
+            Debug.Log("Lost 25% of energy");
             TextBox.text = points.ToString() + "%";
             other.tag = "Done";
         }
@@ -80,6 +80,7 @@ public class Movement : MonoBehaviour
                     SceneManager.LoadScene("Office");
                     break;
                 case "Office":
+                EndDetails.text = "YAYYY you did it! you survided a tedius job, a stressful school day and did all your chores without burning out! what an icon";
                     SceneManager.LoadScene("end");
                     break;
             }

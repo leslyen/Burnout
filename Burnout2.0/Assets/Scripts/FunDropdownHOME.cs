@@ -15,7 +15,7 @@ public class FunDropdownHOME : MonoBehaviour
 
 
         List<string> Fun = new List<string>();
-        Fun.Add(" ");
+        Fun.Add("Procrasinate");
         Fun.Add("Watch TV");
         Fun.Add("Eat a snack");
         Fun.Add("Play video games");
