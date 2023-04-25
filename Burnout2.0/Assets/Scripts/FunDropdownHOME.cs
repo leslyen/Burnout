@@ -15,11 +15,12 @@ public class FunDropdownHOME : MonoBehaviour
 
 
         List<string> Fun = new List<string>();
-        Fun.Add("Take a nap");
+        Fun.Add(" ");
         Fun.Add("Watch TV");
         Fun.Add("Eat a snack");
         Fun.Add("Play video games");
         Fun.Add("Play drums");
+        Fun.Add("Take a nap");
 
 
         foreach (var item in Fun)
