@@ -36,7 +36,7 @@ public class TaskDropdownHOME : MonoBehaviour
         switch (index)
         {
             case 0:
-                TaskLight.transform.position = new Vector3(-500f, 2.87f, 4.97f);
+                TaskLight.transform.position = new Vector3(-5.57f, 4.127f, 4.84f);
                 TaskSpot.transform.position = new Vector3(-5.885f, 0.331f, 4.963f);
                 break;
             case 1:
@@ -48,7 +48,7 @@ public class TaskDropdownHOME : MonoBehaviour
                 TaskSpot.transform.position = new Vector3(-0.363f, 0.116f, -0.00f);
                 break;
             case 3:
-                TaskLight.transform.position = new Vector3(-0.59f, 2.4f, -3.47f);
+                TaskLight.transform.position = new Vector3(-0.26f, 2.4f, -3.87f);
                 TaskSpot.transform.position = new Vector3(-0.18f, 100.27f, -3.87f);
                 break;
             case 4:
@@ -56,7 +56,7 @@ public class TaskDropdownHOME : MonoBehaviour
                 TaskSpot.transform.position = new Vector3(-4.934f, 1.487f, -5.188f);
                 break;
             default:
-                TaskLight.transform.position = new Vector3(16.62f, 2.95f, -3.53f);
+                TaskLight.transform.position = new Vector3(-519f, 2.95f, -3.53f);
                 TaskSpot.transform.position = new Vector3(7.44f, 2.95f, 17.31f);
                 break;
         }

@@ -49,15 +49,15 @@ public class FunDropdownHOME : MonoBehaviour
                 FunSpot.transform.position = new Vector3(3.55f, 0.88f, 5.29f);
                 break;
             case 2:
-                FunLight.transform. position = new Vector3(-3.56f, 2.4f, 6.1f);
+                FunLight.transform. position = new Vector3(-3.56f, 5.528f, 6.1f);
                 FunSpot.transform. position = new Vector3(-3.62f, 0.350f, 5.99f);
                 break;
             case 3:
-                FunLight.transform. position = new Vector3(-0.67f, 2.4f, -5.77f);
-                FunSpot.transform. position = new Vector3(-0.734f, 0.335f, 5.865f);
+                FunLight.transform. position = new Vector3(-0.7f, 5.528f, 6.1f);
+                FunSpot.transform. position = new Vector3(-0.96f, 0.35f, 5.99f);
                 break;
             case 4:
-                FunLight.transform. position = new Vector3(2.66f, 2.56f, -0.35f);
+                FunLight.transform. position = new Vector3(2.58f, 4.71f, -0.5f);
                 FunSpot.transform. position = new Vector3(2.32f, -0.401f, -1.11f);
                 break;
             case 5:
