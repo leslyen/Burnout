@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4691c183038e9374f80bc3867e2fc544
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - KBZipaDeeDooDah
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f12990e58e51eee468d4273606702124, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
