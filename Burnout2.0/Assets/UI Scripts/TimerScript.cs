@@ -16,6 +16,7 @@ public class TimerScript : MonoBehaviour
     private void Start()
     {
         // Starts the timer automatically
+        Time.timeScale = 1;
         timerIsRunning = true;
         tasksDone = 0;
     }
