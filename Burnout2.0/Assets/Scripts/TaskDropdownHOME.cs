@@ -52,7 +52,7 @@ public class TaskDropdownHOME : MonoBehaviour
                 TaskSpot.transform.position = new Vector3(-0.18f, 100.27f, -3.87f);
                 break;
             case 4:
-                TaskLight.transform.position = new Vector3(-4.79f, 5.46f, -5.12f);
+                TaskLight.transform.position = new Vector3(-5.24f, 6.97f, -6.19f);
                 TaskSpot.transform.position = new Vector3(-4.934f, 1.487f, -5.188f);
                 break;
             default:

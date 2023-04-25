@@ -52,15 +52,15 @@ public class TimerScript : MonoBehaviour
 
                 switch(currentSceneName){
                 case "Home":
-                    EndDetails.text = "You ran out of time, did not finish your tasks, and decided to go for a LOOOONG walk until you reached your friends house and have been crashion on their couch since";
+                    EndDetails.text = "You ran out of time, did not finish your tasks, and decided to go for a LOOOONG walk until you reached your friends house and have been crashin' on their couch since";
                     SceneManager.LoadScene("end");
                     break;
                 case "School":
-                    EndDetails.text = "School time is so weird, time goes by so slow then BOOM your out of time and have not done your homeowrk or studied for any of your tests, this school thing is not for you";
+                    EndDetails.text = "School time is so weird, time goes by so slow then BOOM you're out of time and have not done your homework or studied for any of your tests, this school thing is not for you";
                     SceneManager.LoadScene("end");
                     break;
                 case "Office":
-                    EndDetails.text = "working here is a nightmare anyway, so WHAT if you didn't get your tasks done in time, I hear starbucks pays $15 an hour";
+                    EndDetails.text = "Working here is a nightmare anyway, so WHAT if you didn't get your tasks done in time, I hear starbucks pays $15 an hour";
                     SceneManager.LoadScene("end");
                     break;
             }
